@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CC8A5AA262D108800D45A63 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8A5A9262D108800D45A63 /* TestFile.swift */; };
 		5CF0AAB7262D050C00CFFB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0AAB6262D050C00CFFB51 /* AppDelegate.swift */; };
 		5CF0AAB9262D050C00CFFB51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0AAB8262D050C00CFFB51 /* SceneDelegate.swift */; };
 		5CF0AABB262D050C00CFFB51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0AABA262D050C00CFFB51 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CC8A5A9262D108800D45A63 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		5CF0AAB3262D050C00CFFB51 /* GitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF0AAB6262D050C00CFFB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CF0AAB8262D050C00CFFB51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CC8A5A8262D107A00D45A63 /* TestGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8A5A9262D108800D45A63 /* TestFile.swift */,
+			);
+			path = TestGroup;
+			sourceTree = "<group>";
+		};
 		5CF0AAAA262D050C00CFFB51 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		5CF0AAB5262D050C00CFFB51 /* GitSample */ = {
 			isa = PBXGroup;
 			children = (
+				5CC8A5A8262D107A00D45A63 /* TestGroup */,
 				5CF0AAB6262D050C00CFFB51 /* AppDelegate.swift */,
 				5CF0AAB8262D050C00CFFB51 /* SceneDelegate.swift */,
 				5CF0AABA262D050C00CFFB51 /* ContentView.swift */,
@@ -151,6 +162,7 @@
 				5CF0AABE262D050C00CFFB51 /* GitSample.xcdatamodeld in Sources */,
 				5CF0AAB7262D050C00CFFB51 /* AppDelegate.swift in Sources */,
 				5CF0AAB9262D050C00CFFB51 /* SceneDelegate.swift in Sources */,
+				5CC8A5AA262D108800D45A63 /* TestFile.swift in Sources */,
 				5CF0AABB262D050C00CFFB51 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
