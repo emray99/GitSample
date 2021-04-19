@@ -11,6 +11,8 @@ struct ContentView: View {
     var body: some View {
         Text("oya oya")
             .padding()
+        Text("another text")
+            .padding()
     }
 }
 
